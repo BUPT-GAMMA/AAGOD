@@ -1,4 +1,6 @@
-# AAGOD
+# This is the source code for paper: A Data-centric Framework to Endow Graph Neural Networks with Out-Of-Distribution Detection Ability. If you have any questions about the paper or code, please contact <u>gyxx@bupt.edu.cn</u> .
+
+
 ### Requirements:
 
 - torch-geometric==2.0.4
