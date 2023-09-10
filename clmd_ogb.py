@@ -28,13 +28,13 @@ import pdb
 from data_loader_amp import *
 from load_dataset_amp import *
 import copy
-from LGA_Lib.embedding_evaluation import EmbeddingEvaluation
-from LGA_Lib.encoder import TUEncoder
-from LGA_Lib.encoder import TUEncoder_sd
-from LGA_Lib.learning import MModel
-from LGA_Lib.learning import MModel_sd
-from LGA_Lib.utils import initialize_edge_weight, initialize_node_features, set_tu_dataset_y_shape
-from LGA_Lib.LGA_learner import LGALearner
+from My_LA.embedding_evaluation import EmbeddingEvaluation
+from My_LA.encoder import TUEncoder
+from My_LA.encoder import TUEncoder_sd
+from My_LA.learning import MModel
+from My_LA.learning import MModel_sd
+from My_LA.utils import initialize_edge_weight, initialize_node_features, set_tu_dataset_y_shape
+from My_LA.LGA_learner import LGALearner
 from torch_scatter import scatter
 import sys
 import os
