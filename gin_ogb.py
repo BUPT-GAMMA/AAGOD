@@ -7,7 +7,7 @@ from torch.nn import Sequential, Linear, ReLU
 from torch_geometric.datasets import TUDataset
 from torch_geometric.data import DataLoader
 from torch_geometric.nn import GINConv, global_add_pool
-from LGA_Lib.convs.wgin_conv import WGINConv
+from My_LA.convs.wgin_conv import WGINConv
 
 import numpy as np
 from sklearn.model_selection import cross_val_score
